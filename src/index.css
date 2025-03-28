@@ -1,0 +1,21 @@
+@import "tailwindcss";
+body{
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+ 
+}
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Prevent horizontal scrolling */
+body {
+  overflow-x: hidden;
+}
+
+/* Bottom nav padding */
+main {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
