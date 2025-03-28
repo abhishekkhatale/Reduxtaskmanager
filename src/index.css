@@ -3,10 +3,17 @@ body{
   font-family: "Poppins", sans-serif;
   max-width: 100%;
   overflow-x: hidden;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
  
 }
 html {
   -webkit-overflow-scrolling: touch;
+  
+}
+
+.break-words {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 /* Prevent horizontal scrolling */
